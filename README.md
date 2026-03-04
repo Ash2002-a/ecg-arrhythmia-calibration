@@ -209,6 +209,19 @@ The modest performance degradation indicates the model retains reasonable stabil
 Ventricular arrhythmias show strong separability, while rarer classes remain more challenging.
 
 ---
+## Example Figures
+
+### ROC Curves
+![ROC Curves](reports/figures/roc_curves.png)
+
+### Calibration Comparison
+![Calibration](reports/figures/calibration_comparison.png)
+
+### Ventricular Arrhythmia Calibration
+![Calibration Ventricular](reports/figures/calibration_ventricular.png)
+
+### Feature Importance
+![Feature Importance](reports/figures/feature_importance.png)
 
 # Repository Structure
 
