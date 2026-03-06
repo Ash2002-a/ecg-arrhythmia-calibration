@@ -151,7 +151,7 @@ The Random Forest classifier slightly outperformed Logistic Regression:
 This suggests that non-linear feature interactions captured by the Random Forest provide a small performance advantage over the linear baseline model.
 
 ### Ventricular Arrhythmia ROC Comparison
-![Model Comparison](reports/figures/model_comparison_roc.png)
+![Model Comparison](reports/figures/model_comparison_ventricular_roc.png)
 
 # Evaluation Metrics
 
