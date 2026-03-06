@@ -4,6 +4,8 @@ A reproducible machine learning pipeline for ECG heartbeat classification using 
 
 This project explores cardiovascular signal modelling and demonstrates a research-style workflow for ECG-based arrhythmia detection.
 
+📄 Full research-style report: [Project Report](reports/project_report.pdf)
+
 ---
 
 # Overview
@@ -136,6 +138,20 @@ Two baseline classifiers were implemented.
 These models provide a comparison between linear and ensemble learning approaches.
 
 ---
+
+# Model Comparison
+
+A direct comparison was performed between the two baseline models for ventricular arrhythmia detection.
+
+The Random Forest classifier slightly outperformed Logistic Regression:
+
+• Logistic Regression ROC-AUC: **0.982**  
+• Random Forest ROC-AUC: **0.986**
+
+This suggests that non-linear feature interactions captured by the Random Forest provide a small performance advantage over the linear baseline model.
+
+### Ventricular Arrhythmia ROC Comparison
+![Model Comparison](reports/figures/model_comparison_roc.png)
 
 # Evaluation Metrics
 
